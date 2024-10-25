@@ -4,6 +4,7 @@ import InputApp from '../components/InputApp';
 import BlogCard from '../components/BlogCard';
 import TestimonialCard from '../components/TestimonialCard';
 import AboutUs from './AboutUs';
+
 const Home = () => {
     return (
         <>
