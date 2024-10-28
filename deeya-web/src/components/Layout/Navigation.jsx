@@ -5,7 +5,7 @@ const Navigation = () => {
         alert('Button clicked');
     }
     return (
-        <nav className="border w-full xl:w-[1360px] flex justify-between px-[40px] py-[4.5px] rounded-[32px] items-center bg-white shadow-md mt-[40px]">
+        <nav className="border w-full  flex justify-between px-[40px] py-[4.5px] rounded-[32px] items-center bg-white shadow-md mt-[40px]">
             <h1 className="text-h2-heading font-heebo">Deeya</h1>
             <div className="hidden xl:flex gap-[50px] items-center">
                 <ul className="flex gap-6 font-heebo text-body-text">

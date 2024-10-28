@@ -27,6 +27,7 @@ import ABRICOT from '../assets/images/Abricot.png';
 import ABOUTHERO from '../assets/images/aboutimage.png';
 import FOUNDER from '../assets/images/founder.png';
 import PLUS from '../assets/images/plus.png';
+import CONTACTHERO from '../assets/images/contacthero.png'
 
 
 const sampleBlogData = [
@@ -240,6 +241,7 @@ export {
     ABRICOT,
     FOUNDER,
     ABOUTHERO,
+    CONTACTHERO,
     PLUS,
     sampleMarketPlaceData,
     sampleProdctDetailsCategoryData
