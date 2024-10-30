@@ -28,6 +28,7 @@ import ABOUTHERO from '../assets/images/aboutimage.png';
 import FOUNDER from '../assets/images/founder.png';
 import PLUS from '../assets/images/plus.png';
 import CONTACTHERO from '../assets/images/contacthero.png'
+import LOGINHERO from '../assets/images/contacthero.png'
 
 
 const sampleBlogData = [
@@ -244,5 +245,6 @@ export {
     CONTACTHERO,
     PLUS,
     sampleMarketPlaceData,
-    sampleProdctDetailsCategoryData
+    sampleProdctDetailsCategoryData,
+    LOGINHERO
 }

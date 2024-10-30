@@ -1,5 +1,5 @@
 import Button from '../Button';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 const Navigation = () => {
     const handleClick = () => {
         alert('Button clicked');
@@ -42,11 +42,13 @@ const Navigation = () => {
                     </svg>
                 </span>
                 <div className="space-x-[32px] flex">
-                    <Button
+                    <Link to='/login'> 
+                        <Button
                         // onClick={""}
                         label="Log In"
                         disabled={false}
-                        className="px-[14px] py-[10px] w-[120px]" />
+                        className="px-[14px] py-[10px]  bg-[#2FB078] text-white w-[120px]" />
+                    </Link>
                     <Button
                         // onClick={""}
                         label="Register"

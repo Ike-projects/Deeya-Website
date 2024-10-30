@@ -9,6 +9,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Heebo';
+    src: url('/fonts/heebo-bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
 *, ::after, ::before {
     padding: 0;
     margin: 0;
@@ -19,4 +26,5 @@ body {
     font-family: 'Heebo', sans-serif;
     color: black;
     line-height: 1.5;
+    height: 100%;
 }

@@ -14,10 +14,11 @@ const ContactPage = () => {
       };
 
   return (
-    <div className="w-full">
-      <div className="relative w-full h-[400px]">
+    <div className="w-full"  >
+      
+      <div className="relative w-full h-[400px] "  >
         <img src={CONTACTHERO} alt="a picture of a woman farming" className="w-full h-full object-cover" />
-        <h1 className="absolute inset-0 flex items-center justify-center text-white text-heebo">
+        <h1 className="absolute inset-0 flex items-center justify-center text-white text-heebo font-medium">
           Contact Us
         </h1>
       </div>
@@ -26,23 +27,23 @@ const ContactPage = () => {
         <aside className="md:flex-row xl:flex-col md:justify-between xl:justify-start md:py-[3.125rem] xl:py-8 md:px-[4.625rem] xl:px-7 md:bg-CardBg  xl:items-start xl:w-1/4  xl:h-[409px] ">
             
             <div className="inquiries xl:flex xl:flex-col xl:items-start">
-                <h3 className="text-heading text-center xl:text-left mb-6">General Enquiries</h3>
+                <h3 className="text-heading text-center font-medium xl:text-left mb-6">General Enquiries</h3>
                 <div className="flex justify-center xl:justify-start space-x-2 text-center">
                         <FaPhoneAlt className="text-primaryGreen text-2xl" />
-                        <span className="text-body-text">+2335934679</span>
+                        <span className="text-body-text font-medium">+2335934679</span>
                 </div>
 
                 <div className="flex justify-center space-x-2 mt-7">
                         <FaEnvelope className="text-primaryGreen text-2xl" />
-                        <span className="text-body-text">Customer@Deeya.com</span>
+                        <span className="text-body-text font-medium">Customer@Deeya.com</span>
                 </div>
             </div>
 
             <div className="location">
-                <h3 className="text-heading text-center mb-6 xl:text-start">Our Location</h3>
+                <h3 className="text-heading text-center font-medium mb-6 xl:text-start">Our Location</h3>
                 <div className="flex justify-center space-x-2">
                         <MdLocationOn className="text-primaryGreen text-2xl" />
-                        <span className="text-body-text">Adenta, Accra</span>
+                        <span className="text-body-text font-medium">Adenta, Accra</span>
                 </div>
 
             </div>
@@ -61,7 +62,7 @@ const ContactPage = () => {
           type="text"
           placeholder="Your name"
           {...register('name', { required: 'Name is required' })}
-          className="bg-lightestGreen rounded-lg px-2 py-4"
+          className=" bg-lightestGreen rounded-lg px-2 py-4"
         />
         {errors.name && <span className="text-red">{errors.name.message}</span>}
       </div>
@@ -108,7 +109,7 @@ const ContactPage = () => {
     <div className="flex justify-center ">
       <button
         type="submit"
-        className={`w-full max-w-[331px] md:max-w-[394px] py-[13px] rounded-2xl mb-6 mt-12 text-white ${isValid ? 'bg-primaryGreen' : 'bg-disabled cursor-not-allowed'}`}
+        className={`text-ui-label-semi-bold w-full max-w-[331px] md:max-w-[394px] py-[13px] rounded-2xl mb-6 mt-12 text-white ${isValid ? 'bg-primaryGreen' : 'bg-disabled cursor-not-allowed'}`}
         disabled={!isValid}
       >
         Send Message
