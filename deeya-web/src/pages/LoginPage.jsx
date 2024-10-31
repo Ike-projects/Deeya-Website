@@ -85,7 +85,7 @@ const LoginPage = () => {
             {errorMessage && <p className="text-red">{errorMessage}</p>}
           </div>
 
-          <p className="text-body-text text-end">Forgot Password?</p>
+          <Link to='/reset'><p className="text-body-text text-end">Forgot Password?</p></Link>
 
           
 

@@ -10,6 +10,9 @@ import ProductDetails from './pages/ProductDetails.jsx'
 import ContactPage from './pages/ContactPage.jsx'
 import LoginPage from './pages/LoginPage.jsx'
 import Register from './pages/Register.jsx'
+import TandC from './pages/TandC.jsx'
+import ResetPassword from './pages/ResetPassword.jsx'
+import UserAccount from './pages/UserAccount.jsx'
 
 
 const router = createBrowserRouter([
@@ -45,6 +48,18 @@ const router = createBrowserRouter([
       {
         path:'/register',
         element:<Register/>,
+      },
+      {
+        path:'/tc',
+        element:<TandC/>,
+      },
+      {
+        path:'/reset',
+        element:<ResetPassword/>,
+      },
+      {
+        path:'/account',
+        element:<UserAccount/>,
       },
     ]
   }
