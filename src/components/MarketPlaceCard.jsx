@@ -22,7 +22,7 @@ const MarketPlaceCard = ({ image, title, discription, price, size , id}) => {
                     </span>
                 </div>
                 <div className="mt-[58px]">
-                    <Button icon={PLUS} label={'Add to Cart'} className="bg-[#2FB078] P-[14px] w-full h-[52px] flex gap-[10px] item-center justify-center " />
+                    <Button icon={PLUS} label={'Add to Cart'} className="bg-[#2FB078] P-[14px] text-white w-full h-[52px] flex gap-[10px] item-center justify-center " />
 
                 </div>
             </div>
