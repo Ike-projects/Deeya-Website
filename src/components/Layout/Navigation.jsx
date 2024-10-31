@@ -46,7 +46,7 @@ const Navigation = () => {
                         // onClick={""}
                         label="Log In"
                         disabled={false}
-                        className="px-[14px] py-[10px] w-[120px]" />
+                        className="px-[14px] py-[10px] w-[120px] text-black" />
                     <Button
                         // onClick={""}
                         label="Register"
