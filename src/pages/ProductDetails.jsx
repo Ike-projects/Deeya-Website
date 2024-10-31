@@ -88,7 +88,7 @@ const ProductDetails = ({ price, size }) => {
                 <Button
                   label={"Add to Cart"}
                   icon={PLUS}
-                  className="bg-[#2FB078] w-[144px] h-[52px] text-ui-label-semi-bold font-heebo"
+                  className="bg-[#2FB078] w-[144px] h-[52px] text-white text-ui-label-semi-bold font-heebo"
                 />
               </span>
             </div>

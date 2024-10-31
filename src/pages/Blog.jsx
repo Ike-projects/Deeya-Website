@@ -36,7 +36,7 @@ const Blog = () => {
             />
           ))}
         </div>
-        <Button label={"View More"} className="bg-[#2FB078] w-[300px] h-[50px]"/>
+        <Button label={"View More"} className="bg-[#2FB078] text-white w-[300px] h-[50px]"/>
       </div>
       <div className="mt-[32px]">
       <InputApp/>
