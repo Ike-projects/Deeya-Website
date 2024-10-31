@@ -10,28 +10,28 @@ const Navigation = () => {
             <div className="hidden xl:flex gap-[50px] items-center">
                 <ul className="flex gap-6 font-heebo text-body-text">
                     <li className="cursor-pointer hover:text-green-600">
-                        <NavLink to="/" className={({ isActive }) => {
+                        <NavLink to="/Deeya-Website/" className={({ isActive }) => {
                             return isActive ? 'text-green-600' : 'text-black';
                         }}>Home</NavLink>
                     </li>
                     <li className="cursor-pointer hover:text-green-600">
-                        <NavLink to="/marketplace" className={({ isActive }) => {
+                        <NavLink to="/Deeya-Website/marketplace" className={({ isActive }) => {
                             return isActive ? 'text-green-600' : 'text-black';
                         }}>Marketplace</NavLink>
                     </li>
                     <li className="cursor-pointer hover:text-green-600">
-                        <NavLink to="/blog" className={({ isActive }) => {
+                        <NavLink to="/Deeya-Website/blog" className={({ isActive }) => {
                             return isActive ? 'text-green-600' : 'text-black';
                         }}>Blog</NavLink>
                     </li>
                     <li className="cursor-pointer hover:text-green-600">
-                        <NavLink to="/aboutus" className={({ isActive }) => {
+                        <NavLink to="/Deeya-Website/aboutus" className={({ isActive }) => {
                             return isActive ? 'text-green-600' : 'text-black';
                         }}>About Us</NavLink>
                     </li>
 
                     <li className="cursor-pointer hover:text-green-600">
-                        <NavLink to="/contactus" className={({ isActive }) => {
+                        <NavLink to="/Deeya-Website/contactus" className={({ isActive }) => {
                             return isActive ? 'text-green-600' : 'text-black';
                         }}>Contact Us</NavLink>
                     </li>

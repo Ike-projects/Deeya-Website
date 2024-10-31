@@ -8,7 +8,7 @@ const MarketPlaceCard = ({ image, title, discription, price, size , id}) => {
             <div className="w-[317px] h-[444px] border-[0.6px] border-[#424345] px-[18px] py-5 rounded-2xl font-heebo">
                 <div className="space-y-[16px]">
                     <img src={image} alt="" className="w-[282px] h-[176px] border-0 mb-4" />
-                    <Link to={`/marketplace/${id}`} className="text-h3-heading">
+                    <Link to={`/Deeya-Website/marketplace/${id}`} className="text-h3-heading">
                         {title}
                     </Link>
                     <p className="body-text">

@@ -14,7 +14,7 @@ const BlogCard = ({ image, date, title, description, author, id }) => {
 
                 <p className="text-sm text-gray-500">{date}</p>
 
-                <Link  to={`/blog/${id}`} className="font-bold text-xl text-gray-800 mt-2">
+                <Link  to={`/Deeya-Website/blog/${id}`} className="font-bold text-xl text-gray-800 mt-2">
                     {title}
                 </Link>
 

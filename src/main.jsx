@@ -13,32 +13,32 @@ import BlogDetails from './pages/BlogDetails.jsx'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/Deeya-Website/',
     element: <App/>,
     errorElement: <div>404 Not Found</div>,
     children: [
       {
-        path: '/',
+        path: '/Deeya-Website/',
         element: < Home/>
       },
       {
-        path:'/aboutus',
+        path:'/Deeya-Website/aboutus',
         element:<AboutPage/>,
       },
       {
-        path:'/marketplace',
+        path:'/Deeya-Website/marketplace',
         element:<MarketPlace/>,
       },
       {
-        path:'/marketplace/:id',
+        path:'/Deeya-Website/marketplace/:id',
         element:<ProductDetails/>,
       },
       {
-        path:'/blog',
+        path:'/Deeya-Website/blog',
         element:<Blog/>
       },
       {
-        path:'/blog/:id',
+        path:'/Deeya-Website/blog/:id',
         element:<BlogDetails/>
       }
     ]
