@@ -21,7 +21,7 @@ import TRUCK from '../assets/images/Truck.png';
 import VECTOR from '../assets/images/Vector.svg';
 import VISA from '../assets/images/visa.svg';
 import VEGETABLES from '../assets/images/Vegetables.png';
-import ARROW from '../assets/images/arrow.png';
+import ARROW from '../assets/images/Arrow.png';
 import STRAWBERRY from '../assets/images/Strawberry.png';
 import ABRICOT from '../assets/images/Abricot.png';
 import ABOUTHERO from '../assets/images/aboutimage.png';
