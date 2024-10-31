@@ -53,7 +53,6 @@ const Navigation = () => {
                         disabled={false}
                         className="px-[14px] py-[10px] rounded-2xl bg-[#2FB078] text-white w-[120px]"
                     />
-
                 </div>
             </div>
             <div className='xl:hidden flex gap-10'>
