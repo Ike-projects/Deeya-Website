@@ -10,6 +10,7 @@ import MarketPlace from './pages/MarketPlace.jsx'
 import ProductDetails from './pages/ProductDetails.jsx'
 import Blog from './pages/Blog.jsx'
 import BlogDetails from './pages/BlogDetails.jsx'
+import EmptyCart from './pages/EmptyCart.jsx'
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path:'/Deeya-Website/blog/:id',
         element:<BlogDetails/>
+      },
+      {
+        path:'/Deeya-Website/emptycart/',
+        element:< EmptyCart/>
       }
     ]
   }
