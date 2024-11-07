@@ -5,12 +5,12 @@ import './index.css'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import AboutPage from './pages/AboutPage.jsx'
-import MarketPlace from './pages/MarketPlace.jsx'
-import ProductDetails from './pages/ProductDetails.jsx'
 import ContactPage from './pages/ContactPage.jsx'
 import LoginPage from './pages/LoginPage.jsx'
 import Register from './pages/Register.jsx'
-
+import MarketPlace from './pages/MarketPlace.jsx'
+import ProductDetails from './pages/ProductDetails.jsx'
+import Blog from './pages/Blog.jsx'
 
 const router = createBrowserRouter([
   {
@@ -35,6 +35,7 @@ const router = createBrowserRouter([
         element:<ProductDetails/>,
       },
       {
+
         path:'/contactus',
         element:<ContactPage/>,
       },
@@ -46,6 +47,12 @@ const router = createBrowserRouter([
         path:'/register',
         element:<Register/>,
       },
+
+      {
+        path:'/blog',
+        element:<Blog/>,
+      }
+
     ]
   }
 ])
