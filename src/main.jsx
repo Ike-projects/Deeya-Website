@@ -6,11 +6,15 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import AboutPage from './pages/AboutPage.jsx'
 import ContactPage from './pages/ContactPage.jsx'
+
+import LoginPage from './pages/LoginPage.jsx'
+import Register from './pages/Register.jsx'
 import MarketPlace from './pages/MarketPlace.jsx'
 import ProductDetails from './pages/ProductDetails.jsx'
 import Blog from './pages/Blog.jsx'
 import BlogDetails from './pages/BlogDetails.jsx'
 import EmptyCart from './pages/EmptyCart.jsx'
+
 
 
 const router = createBrowserRouter([
@@ -40,8 +44,18 @@ const router = createBrowserRouter([
         element:<ContactPage/>,
       },
       {
+
+        path:'/login',
+        element:<LoginPage/>,
+      },
+      {
+        path:'/register',
+        element:<Register/>,
+      },
+
+      {
         path:'/Deeya-Website/blog',
-        element:<Blog/>
+        element:<Blog/>,
       },
       {
         path:'/Deeya-Website/blog/:id',

@@ -26,6 +26,7 @@ import STRAWBERRY from '../assets/images/Strawberry.png';
 import ABRICOT from '../assets/images/Abricot.png';
 import ABOUTHERO from '../assets/images/aboutimage.png';
 import FOUNDER from '../assets/images/founder.png';
+import LOGINHERO from '../assets/images/contacthero.png'
 import PLUS from '../assets/images/plus.png';
 import CONTACTHERO from '../assets/images/contacthero.png'
 import BLOG from "../assets/images/Blog.png";
@@ -284,11 +285,11 @@ export {
     ABRICOT,
     FOUNDER,
     ABOUTHERO,
-
-    CONTACTHERO,
-    PLUS,
-    sampleMarketPlaceData,
-    sampleProdctDetailsCategoryData,
+    CONTACTHERO,  
+    LOGINHERO,
+  PLUS,
+  sampleMarketPlaceData,
+  sampleProdctDetailsCategoryData,
   BLOG,
   sampleBlogsData,
 };
