@@ -61,6 +61,7 @@ const router = createBrowserRouter([
         path:'/account',
         element:<UserAccount/>,
       },
+      
     ]
   }
 ])

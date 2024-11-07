@@ -9,7 +9,8 @@ const userStore = create((set)=>({
     //action to fetch user data from API
     fetchUser: async () => {
         try{
-            const response = await axios.get('/apiuser');
+            // const token = localStorage.getItem('token'); //to be updated depending on where token is 
+            const response = await axios.get('https://jsonplaceholder.typicode.com/users/3',); //replace api when backend is ready
             set({user: response.data});
         } catch (error) {
             console.error('error fetching data', error);
@@ -17,7 +18,7 @@ const userStore = create((set)=>({
     },
 
 
-    //update user information
+    //Action to update user information
     updateUser: async (updatedData)=>{
         try {
             const response = await axios.put('/api/user', updatedData);
@@ -27,7 +28,7 @@ const userStore = create((set)=>({
         }
     },
 
-    //update user image
+    //Action to update user image
     updateImage: async (imageFile) => {
         try {
           const formData = new FormData();
