@@ -3,7 +3,7 @@ import { ABOUTHERO, FOUNDER } from "../constants"
 
 const AboutPage = () => {
   return (
-    <div className="w-full bg-purple-400 ">
+    <div className="w-full  ">
       <div className="relative w-full h-[400px]">
         <img src={ABOUTHERO} alt="a picture of a woman farming" className="w-full h-full object-cover" />
         <h1 className="absolute inset-0 flex items-center justify-center text-white text-heebo font-medium">

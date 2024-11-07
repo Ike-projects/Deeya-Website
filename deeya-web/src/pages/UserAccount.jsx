@@ -68,7 +68,7 @@ const UserAccountPage = () => {
 
   return (
     <div className="h-full w-full flex justify-center items-center ">
-      <div className='container flex flex-col xl:flex-row gap-36 mt-[100px] xl:mx-[80px]  space-y-8 xl:space-y-0 w-full xl:min-w-[1290px]'>
+      <div className='container flex flex-col xl:flex-row gap-36 mt-[100px] xl:mx-[80px] space-y-8 xl:space-y-0 w-full xl:min-w-[1290px]'>
           {/* Profile Section */}
             <section className="xl:min-w-[326px]  flex justify-center ">
                 <div className='container flex flex-row xl:flex-col justify-center items-center rounded-md bg-CardBg w-full md:max-w-[585px] h-[163px]  xl:h-[357px]  gap-[54px] xl:gap-[30px]'>
