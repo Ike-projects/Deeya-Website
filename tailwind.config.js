@@ -22,6 +22,25 @@ export default {
         'h1-heading': ['2.5rem', { lineHeight: '2.5' }, {medium: 500}],
         'heebo': ['3.375rem', {lineHeight:'3.4125rem'}, {medium: 500}],
       },
+
+      colors: {
+        primaryDark:'#0AOC10',
+        lightDark:'#424345',
+        darkGrey:'#7D7E80',
+        blueGrey:'#95A1AD',
+        primaryGreen:'#2FB078',
+        lightGreen:'#70C6A1',
+        lightestGreen:'#DAEFE3',
+        white:'#FFFFFF',
+        darkWhite:'#D9D9D9',
+        primaryBg:'#FFFDFD',
+        CardBg:'#F7F7F7',
+        InputBg:'#ECF2EC',
+        disabled:'#DCEDE4',
+        red:'#EA5050',
+        eggshellWhite:'#FCF7F7',
+
+      }
     },
   },
   plugins: [],

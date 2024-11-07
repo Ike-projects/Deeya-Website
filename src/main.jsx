@@ -5,12 +5,13 @@ import './index.css'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import AboutPage from './pages/AboutPage.jsx'
-import AboutUs from './pages/AboutUs.jsx'
+import ContactPage from './pages/ContactPage.jsx'
 import MarketPlace from './pages/MarketPlace.jsx'
 import ProductDetails from './pages/ProductDetails.jsx'
 import Blog from './pages/Blog.jsx'
 import BlogDetails from './pages/BlogDetails.jsx'
 import EmptyCart from './pages/EmptyCart.jsx'
+
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path:'/Deeya-Website/marketplace/:id',
         element:<ProductDetails/>,
+      },
+      {
+        path:'/contactus',
+        element:<ContactPage/>,
       },
       {
         path:'/Deeya-Website/blog',

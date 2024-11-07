@@ -26,8 +26,10 @@ import STRAWBERRY from '../assets/images/Strawberry.png';
 import ABRICOT from '../assets/images/Abricot.png';
 import ABOUTHERO from '../assets/images/aboutimage.png';
 import FOUNDER from '../assets/images/founder.png';
-import PLUS from "../assets/images/Plus.png";
+import PLUS from '../assets/images/plus.png';
+import CONTACTHERO from '../assets/images/contacthero.png'
 import BLOG from "../assets/images/Blog.png";
+
 
 const sampleBlogData = [
   {
@@ -282,10 +284,11 @@ export {
     ABRICOT,
     FOUNDER,
     ABOUTHERO,
-  PLUS,
-  sampleMarketPlaceData,
-  sampleProdctDetailsCategoryData,
+
+    CONTACTHERO,
+    PLUS,
+    sampleMarketPlaceData,
+    sampleProdctDetailsCategoryData,
   BLOG,
   sampleBlogsData,
 };
-
