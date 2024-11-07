@@ -45,7 +45,7 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="md:flex md:flex-col xl:grid xl:grid-cols-2 xl:w-[1280px] md:h-[697px] mt-[200px] mx-auto">
+    <div className="md:flex md:flex-col xl:grid xl:grid-cols-2 xl:w-[1280px] md:h-[697px] mt-[40px] md:mt-[100px] mx-auto">
       <div className="relative hidden md:block md:w-full md:h-40 xl:h-[697px]">
         <img src={LOGINHERO} alt="Login Hero" className="object-cover w-full h-full " />
         <h1 className="absolute inset-0 flex items-center justify-center text-white text-h2-heading">
@@ -53,9 +53,9 @@ const LoginPage = () => {
         </h1>
       </div>
 
-      <div className="flex justify-center items-center px-8 md:pb-14 bg-CardBg">
+      <div className="flex justify-center pt-[40px] xl:pt-[50px]  px-8 md:pb-14 md:bg-CardBg">
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4 w-full">
-          <h2 className="text-heading font-medium text-center mt-10">Log In</h2>
+          <h2 className="text-heading font-medium text-center  mb-[50px]">Log In</h2>
 
           {/* Email Field */}
           <div className="email flex flex-col">
@@ -85,7 +85,7 @@ const LoginPage = () => {
             {errorMessage && <p className="text-red">{errorMessage}</p>}
           </div>
 
-          <p className="text-body-text text-end">Forgot Password?</p>
+          <Link to='/reset'><p className="text-body-text text-end">Forgot Password?</p></Link>
 
           
 
