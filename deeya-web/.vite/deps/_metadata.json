@@ -1,0 +1,94 @@
+{
+<<<<<<< HEAD
+  "hash": "15d2d80e",
+  "configHash": "c83e4fc2",
+  "lockfileHash": "5aa7ffc2",
+  "browserHash": "27cc74c2",
+  "optimized": {
+    "react": {
+      "src": "../../../../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "51525b1a",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../../../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "cd46926d",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../../../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "85c27f6a",
+      "needsInterop": false
+    },
+    "react-hook-form": {
+      "src": "../../node_modules/react-hook-form/dist/index.esm.mjs",
+      "file": "react-hook-form.js",
+      "fileHash": "04d771fa",
+      "needsInterop": false
+    },
+    "react-icons/fa": {
+      "src": "../../node_modules/react-icons/fa/index.mjs",
+      "file": "react-icons_fa.js",
+      "fileHash": "33070263",
+      "needsInterop": false
+    },
+    "react-icons/md": {
+      "src": "../../node_modules/react-icons/md/index.mjs",
+      "file": "react-icons_md.js",
+      "fileHash": "76c9e968",
+      "needsInterop": false
+    },
+    "react-icons/fi": {
+      "src": "../../node_modules/react-icons/fi/index.mjs",
+      "file": "react-icons_fi.js",
+      "fileHash": "83ab5fc2",
+      "needsInterop": false
+    },
+    "@hookform/resolvers/yup": {
+      "src": "../../node_modules/@hookform/resolvers/yup/dist/yup.mjs",
+      "file": "@hookform_resolvers_yup.js",
+      "fileHash": "30863bbc",
+      "needsInterop": false
+    },
+    "yup": {
+      "src": "../../node_modules/yup/index.esm.js",
+      "file": "yup.js",
+      "fileHash": "422718b3",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "cad740b4",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-IIZXQVW7": {
+      "file": "chunk-IIZXQVW7.js"
+    },
+    "chunk-ACQ3RZCA": {
+      "file": "chunk-ACQ3RZCA.js"
+    },
+    "chunk-ZYHSONMB": {
+      "file": "chunk-ZYHSONMB.js"
+    },
+    "chunk-GMXYIWON": {
+      "file": "chunk-GMXYIWON.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
+    }
+  }
+=======
+  "hash": "608ed7cd",
+  "configHash": "c83e4fc2",
+  "lockfileHash": "e3b0c442",
+  "browserHash": "ec486123",
+  "optimized": {},
+  "chunks": {}
+>>>>>>> 5eff8ad6310e0b2bb2c33c089b0f4f1657b1a260
+}
