@@ -5,9 +5,10 @@ import './index.css'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import AboutPage from './pages/AboutPage.jsx'
+import ContactPage from './pages/ContactPage.jsx'
 import MarketPlace from './pages/MarketPlace.jsx'
 import ProductDetails from './pages/ProductDetails.jsx'
-import ContactPage from './pages/ContactPage.jsx'
+import Blog from './pages/Blog.jsx'
 
 
 const router = createBrowserRouter([
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
         path:'/contactus',
         element:<ContactPage/>,
       },
+      {
+        path:'/blog',
+        element:<Blog/>
+      }
     ]
   }
 ])
