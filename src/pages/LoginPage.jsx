@@ -85,7 +85,7 @@ const LoginPage = () => {
             {errorMessage && <p className="text-red">{errorMessage}</p>}
           </div>
 
-          <Link to='/reset'><p className="text-body-text text-end">Forgot Password?</p></Link>
+          <Link to='/Deeya-Website/reset'><p className="text-body-text text-end">Forgot Password?</p></Link>
 
           
 
@@ -103,7 +103,7 @@ const LoginPage = () => {
           <p className="text-ui-label-medium text-center">
             Don&apos;t have an account yet?
             <span className="text-body-text font-semibold">
-              <Link to='/register'> Register</Link>
+              <Link to='/Deeya-Website/register'> Register</Link>
             </span>
           </p>
         </form>

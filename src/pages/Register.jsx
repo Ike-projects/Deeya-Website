@@ -117,7 +117,7 @@ const Register = () => {
               <p className="text-body-text text-center"> 
                 By Registering, you agree to Deeya&apos;s 
                 <span className="text-body-text font-semibold">
-                  <Link to='/tc' className="text-primaryGreen"> Terms &amp; Conditions</Link>
+                  <Link to='/Deeya-Website/tc' className="text-primaryGreen"> Terms &amp; Conditions</Link>
                 </span>
                 </p>
 
@@ -137,7 +137,7 @@ const Register = () => {
               <p className="text-ui-label-medium text-center">
                 Have an account? 
                 <span className="text-body-text font-semibold">
-                  <Link to='/login'> Login</Link>
+                  <Link to='/Deeya-Website/login'> Login</Link>
                 </span>
               </p>
             </form>

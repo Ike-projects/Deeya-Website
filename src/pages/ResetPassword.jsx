@@ -50,7 +50,7 @@ const ResetPassword = () => {
             </button>
           </div>
 
-          <Link to='/login'><p className="text-ui-label-medium text-center">
+          <Link to='/Deeya-Website/login'><p className="text-ui-label-medium text-center">
                Back to Login
           </p></Link>
         </form>

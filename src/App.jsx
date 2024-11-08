@@ -8,7 +8,7 @@ import { useLocation } from 'react-router-dom';
 
 function App() {
  const location = useLocation();
- const isAbsolute = ['/', '/marketplace', '/blog', '/aboutus', '/contactus'].includes(location.pathname)
+ const isAbsolute = ['/Deeya-Website/', '/Deeya-Website/marketplace', '/Deeya-Website/blog', '/Deeya-Website/aboutus', '/Deeya-Website/contactus'].includes(location.pathname)
 
   return (
     <>
