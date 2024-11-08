@@ -10,7 +10,7 @@ const TandC = () => {
         
         <div className="terms w-full mt-[100px]">
             <div className='flex space-x-4 items-center mb-6'>
-                <Link to="/register"><img src={PREVIOUSPAGE} alt="" /></Link>
+                <Link to="/Deeya-Website/register"><img src={PREVIOUSPAGE} alt="" /></Link>
                 <p>Back to home</p>
             </div>
             <h1 className="text-h2-heading font-medium text-center mb-7">Terms and Conditions</h1>
