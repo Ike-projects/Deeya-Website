@@ -44,28 +44,28 @@ const router = createBrowserRouter([
         element:<ProductDetails/>,
       },
       {
-        path:'/contactus',
+        path:'/Deeya-Website/contactus',
         element:<ContactPage/>,
       },
       {
 
-        path:'/login',
+        path:'/Deeya-Website/login',
         element:<LoginPage/>,
       },
       {
-        path:'/register',
+        path:'/Deeya-Website/register',
         element:<Register/>,
       },
       {
-        path:'/tc',
+        path:'/Deeya-Website/tc',
         element:<TandC/>,
       },
       {
-        path:'/reset',
+        path:'/Deeya-Website/reset',
         element:<ResetPassword/>,
       },
       {
-        path:'/account',
+        path:'/Deeya-Website/account',
         element:<UserAccount/>,
       },
       {

@@ -30,6 +30,7 @@ import LOGINHERO from '../assets/images/contacthero.png'
 import PLUS from '../assets/images/plus.png';
 import CONTACTHERO from '../assets/images/contacthero.png'
 import BLOG from "../assets/images/Blog.png";
+import PREVIOUSPAGE from '../assets/images/previouspage.png'
 
 
 const sampleBlogData = [
@@ -292,4 +293,5 @@ export {
   sampleProdctDetailsCategoryData,
   BLOG,
   sampleBlogsData,
+  PREVIOUSPAGE,
 };
