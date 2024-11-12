@@ -5,7 +5,7 @@ const Navigation = () => {
     alert("Button clicked");
   };
   return (
-    <nav className="border w-full xl:w-[1360px] flex justify-between px-[40px] py-[4.5px] rounded-[32px] items-center bg-white shadow-md mt-[40px]">
+    <nav className=" font-heebo border w-full xl:w-[1360px] flex justify-between px-[40px] py-[4.5px] rounded-[32px] items-center bg-white shadow-md mt-[40px]">
       <h1 className="text-h2-heading font-heebo">Deeya</h1>
       <div className="hidden xl:flex gap-[50px] items-center">
         <ul className="flex gap-6 font-heebo text-body-text">
@@ -61,7 +61,7 @@ const Navigation = () => {
             </NavLink>
           </li>
         </ul>
-        <span>
+        <span className="relative">
           <NavLink
             to="/Deeya-Website/emptycart"
             className={({ isActive }) => {
@@ -83,6 +83,9 @@ const Navigation = () => {
               />
             </svg>
           </NavLink>
+          <div className="w-5 h-5 rounded-full bg-[#EA5050] flex items-center justify-center absolute -top-2 left-3">
+            <p className="text-body-text-small text-white">0</p>
+          </div>
         </span>
         <div className="space-x-[32px] flex">
           <Button
