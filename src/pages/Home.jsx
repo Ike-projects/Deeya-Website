@@ -3,7 +3,7 @@ import { VEGETABLES, ELLIPSE1, sampleBlogData, sampleTestimonialData, SIBLINGS, 
 import InputApp from '../components/InputApp';
 import BlogCard from '../components/BlogCard';
 import TestimonialCard from '../components/TestimonialCard';
-import AboutUs from './AboutUs';
+// import AboutUs from './AboutUs';
 
 const Home = () => {
     return (
